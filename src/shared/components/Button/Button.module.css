@@ -1,0 +1,14 @@
+.button {
+  height: 36px;
+  width: 109px;
+  padding: 8px 32px;
+  font-weight: 700;
+  background: #c20230;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+}

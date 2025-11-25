@@ -1,0 +1,83 @@
+.loginBg {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../../assets/img/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.form {
+  width: 550px;
+  padding: 32px 83px;
+  display: flex;
+  flex-direction: column;
+  background-color: #090708;
+  border-radius: 8px;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.form p {
+  align-self: flex-start;
+  text-align: left;
+  padding-left: 35px;
+}
+.form button {
+  margin-top: 8px;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #737373;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.or::before,
+.or::after {
+  content: "";
+  width: 82px;
+  height: 1px;
+  background: #848383;
+}
+
+.or::before {
+  margin-right: 16px;
+}
+
+.or::after {
+  margin-left: 16px;
+}
+
+.form p {
+  font-size: 14px;
+  color: #ffffff;
+}
+.form p a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.logoBtnRow {
+  display: flex;
+  gap: 20px;
+}
+.logoBtnRow a {
+  text-decoration: none;
+}

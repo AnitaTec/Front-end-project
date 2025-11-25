@@ -1,0 +1,17 @@
+.buttonLogo {
+  width: 147px;
+  height: 40px;
+  background-color: #222021;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
